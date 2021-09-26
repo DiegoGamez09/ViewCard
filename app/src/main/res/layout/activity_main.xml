@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewNaruto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="#fbba53">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="138dp"
+            android:layout_height="107dp"
+            android:layout_margin="10dp"
+            card_view:srcCompat="@drawable/naruto1" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20dp"
+            android:text="Naruto en la primera temporada tenia 12 años de edad, ademas aprendio a dominar el rasengan,  jutsu multiclones de sombras y el jutsu de invocacion." />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewSasuke"
+        android:layout_width="392dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="-403dp"
+        android:layout_marginTop="150dp"
+        card_view:cardBackgroundColor="#239ad9">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="140dp"
+            android:text="Sasuke en la primera temporada dominaba el jutsu bola de fuejo ademas aprendio a utilizar el chidori y mejoro su sharingan al 3er tomoe y sobra decir que dominaba el jutsu de shuriken como todo Uchiha." />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+
+            card_view:srcCompat="@drawable/sasuke" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewSakura"
+        android:layout_width="390dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="-395dp"
+        android:layout_marginTop="290dp"
+        card_view:cardBackgroundColor="#fb7ada">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginVertical="10dp"
+            card_view:srcCompat="@drawable/sakura" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="180dp"
+            android:text="Sakura en la primera temporada poseia un gran control de chakra por lo que Tsunade la acepto como discipula para enseñarle ninjutsu medico y un poderoso taijutsu."
+
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewKakashi"
+        android:layout_width="390dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="-395dp"
+        android:layout_marginTop="425dp"
+        card_view:cardBackgroundColor="#747576">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            card_view:srcCompat="@drawable/kakashi" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kakashi era conocido como el ninja que copia, creo el chidori ademas de dominar todos los elementos, era reconocido en todos las grandes naciones ademas pertenecio a anbu y era considerado como ninja de elite."
+            android:layout_marginLeft="150dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="-270dp"
+        android:text="Equipo 7"
+        android:textSize="44dp"
+        />
+
+
+
+</LinearLayout>
